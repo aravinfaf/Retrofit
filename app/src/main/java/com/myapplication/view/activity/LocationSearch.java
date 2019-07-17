@@ -26,7 +26,7 @@ public class LocationSearch extends AppCompatActivity {
             public boolean onTouch(View view, MotionEvent motionEvent) {
                 if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
                     showPlacePickerDialog();
-//                    dfdfdgf
+//                    dfdfdgffgfg dfdfdf
                 }
                 return false;
             }
