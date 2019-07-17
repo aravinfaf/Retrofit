@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+        android:src="@drawable/bg"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:elevation="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="gone"
+            android:elevation="10dp"/>
+
+        <ImageView
+            android:id="@+id/helloworld"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/icon"/>
+
+        <EditText
+            android:id="@+id/edt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/helloworld"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:hint="Username"
+            android:gravity="center"
+            android:background="@drawable/rounded_edittext"
+            android:elevation="7dp"/>
+
+        <EditText
+            android:id="@+id/edt1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/edt"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:hint="Password"
+            android:gravity="center"
+            android:background="@drawable/rounded_edittext"
+            android:elevation="7dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/edt1"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:padding="10px"
+            android:layout_marginTop="20dp"
+            android:text="Submit"/>
+
+    </RelativeLayout>
+</RelativeLayout>
