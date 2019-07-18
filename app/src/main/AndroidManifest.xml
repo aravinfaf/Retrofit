@@ -13,20 +13,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".view.activity.LocationSearch">
-
+        <activity android:name=".view.activity.ViewDetails">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".view.activity.AddTaskActivity" />
+        <activity android:name=".view.activity.RealmCRUD">
 
         </activity>
-        <activity android:name=".view.activity.RetrofitPost">
-
-        </activity>
-        <activity android:name=".view.activity.RetrofitGetResponse"></activity>
+        <activity android:name=".view.activity.LocationSearch" />
+        <activity android:name=".view.activity.RetrofitPost" />
+        <activity android:name=".view.activity.RetrofitGetResponse" />
         <activity android:name=".MainActivity" />
+        <activity android:name=".view.activity.UpdateTaskActivity" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
