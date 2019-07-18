@@ -8,10 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.myapplication.R;
 import com.myapplication.utils.Task;
 import com.myapplication.view.activity.UpdateTaskActivity;
@@ -27,7 +25,6 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.ViewHolder> {
         this.context=context;
         this.taskList=taskList;
     }
-
 
     @NonNull
     @Override
