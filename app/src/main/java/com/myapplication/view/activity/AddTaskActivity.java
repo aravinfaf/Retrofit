@@ -56,7 +56,6 @@ public class AddTaskActivity extends AppCompatActivity {
             editTextFinishBy.setError("Finish by required");
             editTextFinishBy.requestFocus();
             return;
-
         }
 
          class SaveTask extends AsyncTask<Void,Void,Void>{
