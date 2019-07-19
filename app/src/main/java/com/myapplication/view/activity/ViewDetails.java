@@ -19,6 +19,7 @@ import com.myapplication.R;
 import com.myapplication.utils.DatabasClient;
 import com.myapplication.utils.Task;
 import com.myapplication.view.adapter.TaskAdapter;
+import com.nanbox.parallaxrecyclerview.ParallaxRecyclerView;
 
 import java.util.List;
 
@@ -26,7 +27,7 @@ public class ViewDetails extends AppCompatActivity {
 
 
     private FloatingActionButton buttonAddTask;
-    private RecyclerView recyclerView;
+    private ParallaxRecyclerView recyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

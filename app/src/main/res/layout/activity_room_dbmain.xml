@@ -7,7 +7,7 @@
     android:padding="8dp"
     tools:context=".MainActivity">
 
-    <androidx.recyclerview.widget.RecyclerView
+    <com.nanbox.parallaxrecyclerview.ParallaxRecyclerView
         android:id="@+id/recyclerview_tasks"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

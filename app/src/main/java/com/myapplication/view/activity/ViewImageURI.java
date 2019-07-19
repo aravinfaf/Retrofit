@@ -16,6 +16,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.Log;
+import android.view.Choreographer;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -49,6 +50,8 @@ public class ViewImageURI extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_image_uri);
+
+
 
         imgIV=findViewById(R.id.imgIV);
         TV=findViewById(R.id.TV);
