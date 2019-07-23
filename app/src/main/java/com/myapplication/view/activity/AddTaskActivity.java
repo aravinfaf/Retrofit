@@ -1,14 +1,12 @@
 package com.myapplication.view.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import com.myapplication.R;
 import com.myapplication.utils.DatabasClient;
 import com.myapplication.utils.Task;
